@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Formulario de consultas de ofertas - Departamento de informática - EFP7</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css\estilos_form.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+        <main>
+            <h1 class="titulo"> FORMULARIO DE CONSULTAS </h1> 
+            <!-- name="masinfo" y data-netlify="true" son agregados para usar el hosting de NETLIFY con forms-->
+            <form name="masinfo" method="post" class="formulario" data-netlify="true"> 
+                <b>
+                <p>Favor de completar la información solicitada debajo: </p>
+                <input type="text" value="Apellido(s) y Nombre(s) del interesado/a" required>
+                <input type="tel" value="Teléfono/Celular de contacto:" required>
+                <input type="email" value="E-mail de contacto:" required>
+                <p>Marque la(s) ofertas que desea mas información
+                </p>
+                <!-- <input type="checkbox" value="Operador de PC para Administracion y Gestion"> -->
+                <label for="Operador de PC para Administracion y Gestion"><input id="op_pc_ayg" type="checkbox" value="op_pc_ayg" name="oferta">Operador de PC para Administracion y Gestion</label><br>
+                <label for="Auxiliar Reparador de PC y Periféricos"><input id="aux_rep_pc" type="checkbox" value="aux_rep_pc" name="oferta">Auxiliar Reparador de PC y Periféricos</label><br>
+                <label for="Diseñador Web Junior"><input id="op_pc_ayg" type="checkbox" value="dis_web_jr" name="oferta">Diseñador Web Junior</label><br>
+                <label for="Operador de PC para Adultos Mayores"><input id="op_pc_adultos" type="checkbox" value="op_pc_adultos" name="oferta">Operador de PC para Adultos Mayores</label><br>
+                <label for="Reparador Profesional de PC"><input id="rep_prof_pc" type="checkbox" value="rep_prof_pc" name="oferta">Reparador Profesional de PC</label><br>
+                <label for="Operador contable c/planilla de Cálculo"><input id="op_contable" type="checkbox" value="op_contable" name="oferta">Operador contable c/planilla de Cálculo.</label><br>
+
+                <input type="submit">
+                </b>
+            </form>
+        </main>
+    </body>
+
+    <footer>
+
+
+    </footer>
+</html>

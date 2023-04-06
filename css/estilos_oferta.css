@@ -1,0 +1,47 @@
+/*
+html{
+    background-image: url("../imagenes/logo_EFP7.jpg");
+    background-repeat: repeat;
+    background-size: 25%;
+    opacity: 0.5; 
+
+}
+*/
+
+/* 
+.datos_oferta{
+    background-image: url("../imagenes/logo_EFP7.jpg"); 
+    background-size: 25%; 
+    position: relative;
+    background-repeat: repeat;
+    padding: 20px;
+    
+    
+}
+*/
+
+h1{
+    background-color: rgb(31, 209, 150);
+}
+
+p{
+    line-height: 200%;
+    font-size: large;
+    background-color: rgb(220, 245, 225);
+    /* background-color: transparent; */
+}
+
+a{
+    background-color: rgb(224, 236, 152);
+    font-size: larger;
+}
+
+.ampliar{
+    background-color: burlywood;
+    transition: background-color 2s;
+}
+
+.ampliar:hover{
+    color: rgb(197, 14, 14);
+    background-color: rgb(14, 236, 107);
+}
