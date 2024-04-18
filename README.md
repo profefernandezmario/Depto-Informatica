@@ -1,2 +1,0 @@
-"#Depto-Informatica"  
-"#Depto-Informatica" 
